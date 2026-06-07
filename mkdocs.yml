@@ -38,7 +38,6 @@ config:
 plugins:
   - search
   - awesome-pages
-  - offline
   - tags:
       tags_hierarchy: true
 
