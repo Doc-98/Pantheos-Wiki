@@ -31,9 +31,14 @@ markdown_extensions:
   # in order for stat blocks to render correctly, "Markdown in HTML" needs to be enabled
   - md_in_html 
 
+config:
+  extra:
+    manifest: manifest.webmanifest
+
 plugins:
   - search
   - awesome-pages
+  - offline
   - tags:
       tags_hierarchy: true
 
