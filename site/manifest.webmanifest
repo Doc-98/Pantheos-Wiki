@@ -1,0 +1,17 @@
+{
+  "name": "Pantheos-Wiki",
+  "short_name": "PW",
+  "description": "Wiki for my indipendent dnd adventure setting",
+  "scope": "/Pantheos-Wiki/",
+  "start_url": "/Pantheos-Wiki/",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "display": "standalone", 
+  "icons": [
+      {
+        "src": "/Pantheos-Wiki/assets/favicon.png",
+        "type": "image/png",
+        "sizes": "700x700"
+      }
+  ]
+}
