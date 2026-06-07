@@ -2,6 +2,7 @@ site_name: Pantheos Wiki
 
 theme:
   name: material
+  custom_dir: overrides
   features:
     - search.suggest
     - search.highlight
@@ -21,7 +22,7 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
-exclude_docs: |
+exclude_docs: 
   desktop.ini
 
 # tell mkdocs what markdown syntax to use

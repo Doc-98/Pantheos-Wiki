@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+  <link rel="manifest" href="{{ base_url }}/manifest.webmanifest">
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('{{ base_url }}/sw.js')
+          .then(reg => console.log('PWA SW Registered!', reg.scope))
+          .catch(err => console.error('PWA SW Failed!', err));
+      });
+    }
+  </script>
+{% endblock %}
