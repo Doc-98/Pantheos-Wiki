@@ -9,9 +9,14 @@
   "display": "standalone", 
   "icons": [
       {
-        "src": "/Pantheos-Wiki/assets/favicon.png",
-        "type": "image/png",
-        "sizes": "700x700"
-      }
+      "src": "/Pantheos-Wiki/site/assets/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/Pantheos-Wiki/assets/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
   ]
 }

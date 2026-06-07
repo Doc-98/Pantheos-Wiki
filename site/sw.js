@@ -1,6 +1,6 @@
-var GHPATH = '/Pantheos-Wiki';
+var GHPATH = '/Pantheos-Wiki/site';
 var APP_PREFIX = 'pw_';
-var VERSION = 'version_000';
+var VERSION = 'version_001';
 var URLS = [    
   `${GHPATH}/`,
   `${GHPATH}/index.html`,
@@ -41,12 +41,15 @@ self.addEventListener('activate', function (e) {
   e.waitUntil(
     caches.keys().then(function (keyList) {
       var cacheWhitelist = keyList.filter(function (key) {
-        return key.indexOf(APP_PREFIX)
+        // FIXED: Checks if APP_PREFIX exists anywhere in the key string
+        return key.indexOf(APP_PREFIX) !== -1; 
       })
+      // Keep the current version safe
       cacheWhitelist.push(CACHE_NAME);
+
       return Promise.all(keyList.map(function (key, i) {
         if (cacheWhitelist.indexOf(key) === -1) {
-          console.log('Deleting cache : ' + keyList[i] );
+          console.log('Deleting old cache : ' + keyList[i] );
           return caches.delete(keyList[i])
         }
       }))
