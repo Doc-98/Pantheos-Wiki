@@ -1,0 +1,15 @@
+<a href="{{ config.site_url | default(base_url, true) }}" title="{{ config.site_name | e }}" class="md-header__button md-logo" aria-label="{{ config.site_name }}">
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" style="width: 1.8rem; height: 1.8rem;">
+    
+    <defs>
+      <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+        <feDropShadow dx="1" dy="2" stdDeviation="2" flood-color="#000" flood-opacity="0.15"/>
+      </filter>
+    </defs>
+    <g filter="url(#shadow)">
+      <text x="90" y="135" font-family="'Roboto', sans-serif" font-size="140" font-weight="900" fill="#bd53fe" text-anchor="middle">P</text>
+      <text x="90" y="135" font-family="'Roboto', sans-serif" font-size="140" font-weight="900" fill="#6a3de8" text-anchor="middle" style="mix-blend-mode: multiply; opacity: 0.95;">W</text>
+    </g>
+  </svg>
+</a>
