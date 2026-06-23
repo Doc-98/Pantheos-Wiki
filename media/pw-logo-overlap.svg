@@ -1,10 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 230 180" width="230" height="180">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" style="width: 100%; height: 100%;">
   <defs>
-    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
       <feDropShadow dx="1" dy="2" stdDeviation="2" flood-color="#000" flood-opacity="0.15"/>
     </filter>
   </defs>
-  <!-- Variant C: Heavy weight, fully rounded (Quicksand) -->
-  <text x="20" y="120" font-family="'Quicksand', 'Nunito', sans-serif" font-size="130" font-weight="700" fill="#bd53fe" filter="url(#shadow)">P</text>
-  <text x="72" y="150" font-family="'Quicksand', 'Nunito', sans-serif" font-size="130" font-weight="700" fill="#6a3de8" opacity="0.9" filter="url(#shadow)">W</text>
+  
+  <g filter="url(#shadow)">
+    <text x="90" y="135" 
+          font-family="'Roboto', sans-serif" 
+          font-size="140" 
+          font-weight="900" 
+          fill="#bd53fe"
+          text-anchor="middle">P</text>
+          
+    <text x="90" y="135" 
+          font-family="'Roboto', sans-serif" 
+          font-size="140" 
+          font-weight="900" 
+          fill="#6a3de8" 
+          text-anchor="middle"
+          style="mix-blend-mode: multiply; opacity: 0.95;">W</text>
+          
+  </g>
 </svg>
