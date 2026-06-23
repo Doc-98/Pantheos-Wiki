@@ -2,6 +2,9 @@ site_name: Pantheos Wiki
 
 theme:
   name: material
+  icon:
+    favicon: media/favicon.png
+    icon: media/favicon.png
   custom_dir: overrides
   features:
     - search.suggest
