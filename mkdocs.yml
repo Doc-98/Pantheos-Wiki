@@ -2,6 +2,7 @@ site_name: Pantheos Wiki
 
 theme:
   name: material
+  logo: docs/media/pw-logo-overlap.svg
   custom_dir: overrides
   features:
     - search.suggest
