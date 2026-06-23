@@ -1,10 +1,10 @@
-# Giochi di Stor
+# Alexander Zaroson
 
-Benedizione di Stor: 
+Custode dell'Aria
+
+## Benedizione di Stor: 
 
 As a bonus action on your turn you can activate the following bonuses for 1 hour: 
-
- 
 
 - You have resistance to bludgeoning, piercing and slashing damage. 
 

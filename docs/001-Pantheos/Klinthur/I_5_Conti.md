@@ -2,19 +2,19 @@
 
 Conte Porpora 
 
-Ruolo: Esteri (Marina) 
+Ruolo: Diplomazia Estera e detentore politico delle forze della Marina Militare 
 
 Famiglia: Tudmok 
 
 Città: Rastoff 
 
-Titolo:  
+Titolo: 
 
-Simbolo:  
+Simbolo: Timone intrecciato con sartia
 
-Token:  
+Token: Astrolabio Magico
 
- 
+---
 
 Conte Bianco  
 
@@ -26,11 +26,11 @@ Città: Hoyfjell
 
 Titolo:  
 
-Simbolo: Occhio 
+Simbolo: Occhio su Scudo
 
 Token: Scudo della Repubblica 
 
- 
+---
 
 Conte Giada 
 
@@ -46,7 +46,7 @@ Simbolo: Mano stretta a pugno
 
 Token: Spada della Repubblica 
 
- 
+---
 
 Conte Indaco 
 
@@ -62,7 +62,7 @@ Simbolo: Tomo
 
 Token: Piani di Klinthur 
 
- 
+---
 
 Conte Bronzo  
 

@@ -35,6 +35,7 @@ markdown_extensions:
 plugins:
   - search
   - awesome-pages
+  - inline-select-svg
   - tags:
       tags_hierarchy: true
 

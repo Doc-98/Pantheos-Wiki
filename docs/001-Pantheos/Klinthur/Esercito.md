@@ -1,8 +1,8 @@
 # Forze Armate di Klinthur
 
-Guardie Cittadine – Gli Scudi di Pietra 
+## Guardie Cittadine – Gli Scudi di Pietra
 
- 
+<img src="/docs/media/Simbolo_Scudi_di_Pietra.svg">
 
 Scudo di Pietra – soldato semplice 
 
