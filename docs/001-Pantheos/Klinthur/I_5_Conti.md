@@ -1,16 +1,17 @@
 # I 5 Conti di Klinthur
 
-Conte Porpora 
+## Conte Porpora 
 
 Ruolo: Diplomazia Estera e detentore politico delle forze della Marina Militare 
 
-Famiglia: Tudmok 
+Famiglia: Tudmok
 
 Città: Rastoff 
 
 Titolo: 
 
-Simbolo: Timone intrecciato con sartia
+Simbolo: <img src="media/Counts/simbolo_conte_porpora.svg">
+
 
 Token: Astrolabio Magico
 
@@ -26,7 +27,7 @@ Città: Hoyfjell
 
 Titolo:  
 
-Simbolo: Occhio su Scudo
+Simbolo: <img src="media/Counts/simbolo_conte_bianco.svg">
 
 Token: Scudo della Repubblica 
 
@@ -40,11 +41,11 @@ Famiglia: Karek Kukrad
 
 Città: Havbukt 
 
-Titolo:  
+Titolo: 
 
-Simbolo: Mano stretta a pugno 
+Simbolo: Mano stretta a pugno su due spade
 
-Token: Spada della Repubblica 
+Token: Spada della Repubblica
 
 ---
 

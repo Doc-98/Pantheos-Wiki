@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="2012" height="2496" viewBox="0 10 200 200">
+  <defs>
+    <clipPath id="shield_536359139">
+      <path d="m25,25 h150 v50 a150,150,0,0,1,-75,125 a150,150,0,0,1,-75,-125 v-50 z"/>
+    </clipPath>
+    <clipPath id="division_536359139">
+      <rect x="0" y="100" width="200" height="100"/>
+    </clipPath>
+    <style>.secondary {
+      fill: var(--secondary);
+    }
+    .tertiary {
+      fill: var(--tertiary);
+    }
+    .pseudostroke {
+      fill: var(--stroke);
+    }
+    .background {
+      display: var(--background);
+    }</style>
+    <radialGradient id="backlight" cx="100%" cy="100%" r="150%">
+      <stop stop-color="#fff" stop-opacity=".3" offset="0"/>
+      <stop stop-color="#fff" stop-opacity=".15" offset=".25"/>
+      <stop stop-color="#000" stop-opacity="0" offset="1"/>
+    </radialGradient>
+    <g id="mullet10" author="Azgaar" license="https://creativecommons.org/publicdomain/zero/1.0">
+      <polygon points="100 60 104.72 85.47 123.51 67.64 112.36 91.02 138.04 87.64 115.28 100 138.04 112.36 112.36 108.98 123.51 132.36 104.72 114.53 100 140 95.28 114.53 76.49 132.36 87.64 108.98 61.96 112.36 84.72 100 61.96 87.64 87.64 91.02 76.49 67.64 95.28 85.47"/>
+    </g>
+    <style xmlns="http://www.w3.org/1999/xhtml" type="text/css"></style>
+  </defs>
+  <g clip-path="url(#shield_536359139)">
+    <rect class="field" x="0" y="0" width="200" height="200" fill="#522d5b"/>
+    <g class="charge" i="0" charge="mullet10" fill="#fafafa" stroke="#000" style="--secondary: #fafafa; --tertiary: #fafafa; --stroke: #000; --background: block;">
+      <use xlink:href="#mullet10"/>
+    </g>
+    <g class="division" clip-path="url(#division_536359139)">
+      <rect x="0" y="0" width="200" height="200" fill="#fafafa"/>
+      <g class="charge" i="0" charge="mullet10" fill="#522d5b" stroke="#000" style="--secondary: #522d5b; --tertiary: #522d5b; --stroke: #000; --background: block;">
+        <use xlink:href="#mullet10"/>
+      </g>
+    </g>
+  </g>
+  <path class="grad" d="m25,25 h150 v50 a150,150,0,0,1,-75,125 a150,150,0,0,1,-75,-125 v-50 z" fill="url(#backlight)" stroke="#333333" stroke-width="1" style="pointer-events: none;"/>
+</svg>

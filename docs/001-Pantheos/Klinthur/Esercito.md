@@ -2,7 +2,7 @@
 
 ## Guardie Cittadine – Gli Scudi di Pietra
 
-<img src="/media/Simbolo_Scudi_di_Pietra.svg">
+<img src="/media/Banners/Simbolo_Scudi_di_Pietra.svg">
 
 Scudo di Pietra – soldato semplice 
 
