@@ -1,6 +1,11 @@
 # I 5 Conti di Klinthur
 
-## Conte Porpora 
+## Conte Porpora
+
+<div style="display: flex; justify-content: center; width: 50%; margin: 20px 0;">
+  <img src="/media/Counts/sb_porpora.svg" style="width: 150px; max-width: 100%; height: auto;">
+</div>
+
 
 Ruolo: Diplomazia Estera e detentore politico delle forze della Marina Militare 
 
@@ -10,14 +15,15 @@ Città: Rastoff
 
 Titolo: 
 
-Simbolo: <img src="media/Counts/simbolo_conte_porpora.svg">
-
-
 Token: Astrolabio Magico
 
 ---
 
-Conte Bianco  
+## Conte Bianco
+
+<div style="display: flex; justify-content: center; width: 50%; margin: 20px 0;">
+  <img src="/media/Counts/sb_bianco.svg" style="width: 150px; max-width: 100%; height: auto;">
+</div>
 
 Ruolo: Interno (Guardie Cittadine) 
 
@@ -27,13 +33,15 @@ Città: Hoyfjell
 
 Titolo:  
 
-Simbolo: <img src="media/Counts/simbolo_conte_bianco.svg">
-
-Token: Scudo della Repubblica 
+Token: Scudo della Repubblica
 
 ---
 
-Conte Giada 
+## Conte Giada
+
+<div style="display: flex; justify-content: center; width: 50%; margin: 20px 0;">
+  <img src="/media/Counts/sb_giada.svg" style="width: 150px; max-width: 100%; height: auto;">
+</div>
 
 Ruolo: Difesa (Esercito) 
 
@@ -42,8 +50,6 @@ Famiglia: Karek Kukrad
 Città: Havbukt 
 
 Titolo: 
-
-Simbolo: Mano stretta a pugno su due spade
 
 Token: Spada della Repubblica
 
